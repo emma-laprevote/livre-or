@@ -1,0 +1,312 @@
+html {
+  background-image: url(../Images/musiccollage.jpg);
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  z-index: 1000;
+}
+
+nav {
+  height: 8em;
+  margin-right: 3em;
+}
+
+nav li {
+  margin: 2em 1em 0 0;
+}
+
+nav a {
+  font-family: "Teko", sans-serif;
+}
+
+header i {
+  color: black;
+  font-size: 1.2em;
+  letter-spacing: -2em;
+}
+
+#navbar {
+  padding-right: 1.5em;
+}
+
+.waves-effect {
+  font-size: 1.3em;
+}
+
+.photokraft {
+  height: 50em;
+  width: 100%;
+  background-image: url(../Images/kraftwerk.jpg);
+  background-size: cover;
+}
+
+.presentation {
+  background-color: white;
+  padding: 2em;
+}
+
+.slogan {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 1em;
+}
+
+.flow-text {
+  font-size: 1.2em;
+  padding: 0 5em 2em 3em;
+}
+
+.programm {
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+}
+
+.titleprogramm {
+  text-align: center;
+  font-size: 1.6em;
+  padding: 1em;
+  letter-spacing: 1em;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+#card1,
+#card2,
+#card3 {
+  height: 10em;
+}
+
+.card-content p {
+  text-align: center;
+  line-height: 0;
+}
+
+.p2 {
+  font-size: 11px;
+}
+
+.card-action {
+  text-align: center;
+}
+
+.icones {
+  margin-left: 11em;
+  padding: 2em 0 2em 0;
+}
+
+.icones i {
+  font-size: 3em;
+  letter-spacing: 3em;
+  color: black;
+}
+
+.adress {
+  margin-top: -1em;
+}
+
+#logo2 {
+  margin-left: -4em;
+}
+
+footer ul {
+  margin-top: 6em;
+}
+
+.membre {
+  background-color: black;
+  height: 5em;
+  width: 100%;
+}
+
+.membre a {
+  font-family: "Teko", sans-serif;
+  margin: 1em 1em 0 2em;
+}
+
+#iconeuser i {
+  margin-top: 8px;
+}
+
+#iconeuser {
+  display: flex;
+  flex-direction: row;
+}
+
+#iconeuser p {
+  font-size: 1.1em;
+  letter-spacing: 0.7em;
+  margin: 1.5em 0 0 0.5em;
+}
+
+nav button {
+  margin-top: -0.1em;
+}
+
+nav form {
+  margin-right: 6em;
+}
+
+/* CSS FORMULAIRE INSCRIPTION */
+
+#formuInscription {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+}
+
+.titleInscription {
+  background-color: black;
+  color: white;
+  height: 5em;
+  margin-top: -0.5em;
+  text-align: center;
+  font-size: 1.6em;
+  padding-top: 2em;
+  letter-spacing: 1em;
+}
+
+.sloganInscri {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 1em;
+  font-size: 2.5em;
+}
+
+button {
+  margin: 1em 0 0 12em;
+  font-family: "Teko", sans-serif;
+}
+
+.errorForm {
+  color: red;
+}
+
+/* CSS FORMULAIRE CONNEXION */
+
+.Connectrow {
+  display: flex;
+  flex-direction: row;
+}
+
+iframe {
+  margin: 0 3em 3em 5em;
+}
+
+#formConnect {
+  margin-right: 3em;
+}
+
+/* CSS LIVRE OR */
+
+.photolivreor {
+  height: 30em;
+  width: 100%;
+  background-image: url(../Images/livreor.jpg);
+  background-position: bottom;
+}
+
+.livreor {
+  background-color: white;
+  padding: 1em;
+}
+
+.titlelivre {
+  text-align: center;
+  font-size: 1.6em;
+  padding: 1em;
+  letter-spacing: 1em;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+.intro {
+  background-color: black;
+  color: white;
+  padding: 2em;
+}
+
+.intro h3 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 1em;
+}
+
+.puser {
+  font-size: 1.1em;
+  letter-spacing: 0.2em;
+}
+
+#iconeUser {
+  margin: 0 0 0.3em 0.4em;
+}
+
+#iconeUser2 {
+  margin: 0 0 0.3em 0.4em;
+}
+
+.elementrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.elementrow form {
+  margin: 3em 3em 0 3em;
+}
+
+#lienslivre a {
+  margin: 0 0 0.5em 0;
+  font-family: "Teko", sans-serif;
+  margin-left: 0.3em;
+}
+
+#connectpeople {
+  font-size: 1.1em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+#spanCard {
+  font-size: 1.1em;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+
+.livrerow {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardCo {
+  margin-left: 2em;
+}
+
+table {
+  width: 100%;
+  margin: 0 0 0 8em;
+  border: 1px solid black;
+}
+
+#titleTable {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+
+.afficheColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+#commentTable {
+  padding: 1em;
+}
